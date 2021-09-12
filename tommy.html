@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Submission Dicoding - Pemrograman Dasar Web</title>
+</head>
+
+<body>
+    <header>
+        <nav id="nav">
+            <ul>
+                <li><a class="navMenu" href="#top"> Home</a></li>
+                <li><a class="navMenu" href="#skills"> Skills</a></li>
+                <li><a class="navMenu" href="#about"> About</a></li>
+                <li><a class="navMenu" href="#contact"> Contact Me</a></li>
+            </ul>
+        </nav>
+
+        <div id="top" class="jumbotron">
+            <img src="foto.jpg" alt="">
+            <h1>Tommy Rachmadiono</h1>
+            <p>Software Developer | Gamer</p>
+        </div>
+    </header>
+
+    <main>
+        <div id="content">
+            <article id="skills">
+                <h1>My Skills</h1>
+                <div class="flex-container">
+                    <div class="skill ">
+                        <div class="skill-icon">
+                            <img src="skill.png" alt="">
+                            <p>HTML</p>
+                        </div>
+                        <p class="txt-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+                            dignissimos iure officia necessitatibus a fuga neque voluptate accusamus itaque voluptatum!
+                        </p>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <img src="skill.png" alt="">
+                            <p>CSS</p>
+                        </div>
+                        <p class="txt-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+                            dignissimos iure officia necessitatibus a fuga neque voluptate accusamus itaque voluptatum!
+                        </p>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <img src="skill.png" alt="">
+                            <p>JavaScript</p>
+                        </div>
+                        <p class="txt-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+                            dignissimos iure officia necessitatibus a fuga neque voluptate accusamus itaque voluptatum!
+                        </p>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <img src="skill.png" alt="">
+                            <p>PHP</p>
+                        </div>
+                        <p class="txt-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+                            dignissimos iure officia necessitatibus a fuga neque voluptate accusamus itaque voluptatum!
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <hr>
+
+            <article id="about">
+                <h1>About</h1>
+
+                <div class="flex-container">
+                    <section id="biodata">
+                        <h2>My Profile</h2>
+                        <div class="card">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Full Name</th>
+                                        <td>Tommy Rachmadiono W.S</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Birth Day</th>
+                                        <td>22 April 1996</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Hobby</th>
+                                        <td>Dancing | Workout | Gaming</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Latest Education</th>
+                                        <td>S1 Information System, Universitas Surabaya</td>
+                                    </tr>
+                            </table>
+                        </div>
+                    </section>
+
+                    <aside>
+                        <h2>Work Experience</h2>
+                        <div class="card">
+                            <h3>IT Staff at Danaprospera (MEI 2019 - NOW)</h3>
+                            <h4>Responsibility :</h4>
+                            <ol>
+                                <li>Maintaining web <a href="https://danaprospera.id/investasi/login">danapospera.id</a>
+                                    using Laravel and database MySQL </li>
+                                <li>Improve and make a change to <a
+                                        href="https://danaprospera.id/investasi/login">danapospera.id</a> if needed or
+                                    asked</li>
+                                <li>Actively participated in Danaprospera events</li>
+                            </ol>
+                        </div>
+                    </aside>
+                </div>
+            </article>
+
+            <hr>
+
+            <article id="contact">
+                <h1>Contact Me</h1>
+                <div class="flex-container">
+                    <form>
+                        <label>Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name.." required>
+
+                        <label>Email</label>
+                        <input type="email" id="email" name="email" placeholder="youremail@example.com" required>
+
+                        <label>Phone Number</label>
+                        <input type="number" name="phone" id="phone" placeholder="08XXXXXXXXXX" required>
+
+                        <label>Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"
+                            required></textarea>
+
+                        <input type="submit" value="Submit">
+                    </form>
+
+                    <aside>
+                        <div class="contactIcon">
+                            <h3>
+                                <i class="fa fa-fw fa-github fa-lg"></i>
+                                <a href="https://github.com/TommyRachmadiono" target="_blank">Github</a>
+                                <i class="fa fa-fw fa-instagram fa-lg"></i>
+                                <a href="https://www.instagram.com/tommyrachmadiono/" target="_blank">Instagram</a>
+                                <i class="fa fa-fw fa-linkedin fa-lg"></i>
+                                <a href="https://www.linkedin.com/in/tommy-rachmadiono-w-s-a15939128/"
+                                    target="_blank">LinkedIn</a>
+                            </h3>
+
+                        </div>
+                        <img src="location.jpg" class="responsive">
+                    </aside>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>Tommy Rachmadiono &#169; 2020</footer>
+</body>
+<script src="script.js"></script>
